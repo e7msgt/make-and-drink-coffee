@@ -1,0 +1,44 @@
+#header{
+    height: 200px;
+}
+
+#header,#nav,#big_div,#footer{
+    margin: 1%;
+    border: 2px dashed black;
+    box-sizing: border-box;
+}
+#nav,#big_div {
+    float: left;
+    height: 400px;
+}
+
+#nav{
+    width: 20%;
+    
+}
+    
+#big_div{
+    width: 76%;
+   text-align: center;}
+
+#footer{
+    height: 100px;
+    clear: both;
+}
+
+#nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding:0;
+    background-color: #f1f1f1;
+}
+#nav li a{
+    display: block;
+    color: #000;
+    text-decoration: none;
+    padding: 8px 16px;
+}
+#nav li a:hover {
+    background-color: #555;
+    color: white;
+}
